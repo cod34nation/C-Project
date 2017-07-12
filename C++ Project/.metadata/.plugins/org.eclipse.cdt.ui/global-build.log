@@ -65,3 +65,119 @@ Info: Nothing to build for CaseStudy2
 Info: Internal Builder is used for build
 g++ -O0 -g3 -Wall -c -fmessage-length=0 -o caseStudy1.o "..\\caseStudy1.cpp" 
 g++ -o CaseStudy1.exe caseStudy1.o 
+Info: Nothing to build for CaseStudy1
+Info: Nothing to build for CaseStudy2
+16:34:46 **** Rebuild of configuration Debug for project Problem_UVA_Wedding_shopping ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o wedding.o "..\\wedding.cpp" 
+..\wedding.cpp:2:20: fatal error: csstudio: No such file or directory
+ #include <csstudio>
+                    ^
+compilation terminated.
+Info: Nothing to build for CaseStudy1
+Info: Nothing to build for CaseStudy2
+16:35:27 **** Incremental Build of configuration Debug for project Problem_UVA_Wedding_shopping ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o wedding.o "..\\wedding.cpp" 
+..\wedding.cpp:2:19: fatal error: cstudio: No such file or directory
+ #include <cstudio>
+                   ^
+compilation terminated.
+Info: Nothing to build for CaseStudy1
+Info: Nothing to build for CaseStudy2
+16:35:40 **** Incremental Build of configuration Debug for project Problem_UVA_Wedding_shopping ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o wedding.o "..\\wedding.cpp" 
+..\wedding.cpp:2:19: fatal error: cstudio: No such file or directory
+ #include <cstudio>
+                   ^
+compilation terminated.
+Info: Nothing to build for CaseStudy1
+Info: Nothing to build for CaseStudy2
+16:36:03 **** Incremental Build of configuration Debug for project Problem_UVA_Wedding_shopping ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o wedding.o "..\\wedding.cpp" 
+..\wedding.cpp:3:20: fatal error: csstring: No such file or directory
+ #include <csstring>
+                    ^
+compilation terminated.
+Info: Nothing to build for CaseStudy1
+Info: Nothing to build for CaseStudy2
+16:36:20 **** Incremental Build of configuration Debug for project Problem_UVA_Wedding_shopping ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o wedding.o "..\\wedding.cpp" 
+..\wedding.cpp:38:17: error: invalid suffix "M" on integer constant
+   scanf("%d %d",8M,8C);
+                 ^
+..\wedding.cpp:38:20: error: invalid suffix "C" on integer constant
+   scanf("%d %d",8M,8C);
+                    ^
+..\wedding.cpp: In function 'int shop(int, int)':
+..\wedding.cpp:30:12: error: a function-definition is not allowed here before '{' token
+ int main() {
+            ^
+..\wedding.cpp:50:1: error: expected '}' at end of input
+ }
+ ^
+..\wedding.cpp:50:1: warning: control reaches end of non-void function [-Wreturn-type]
+ }
+ ^
+Info: Nothing to build for CaseStudy1
+Info: Nothing to build for CaseStudy2
+16:37:53 **** Incremental Build of configuration Debug for project Problem_UVA_Wedding_shopping ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o wedding.o "..\\wedding.cpp" 
+..\wedding.cpp:38:17: error: invalid suffix "M" on integer constant
+   scanf("%d %d",8M,8C);
+                 ^
+..\wedding.cpp:38:20: error: invalid suffix "C" on integer constant
+   scanf("%d %d",8M,8C);
+                    ^
+..\wedding.cpp: In function 'int main()':
+..\wedding.cpp:33:14: error: no matching function for call to 'flush(FILE*)'
+  flush(stdout);
+              ^
+..\wedding.cpp:33:14: note: candidate is:
+In file included from c:\mingw\lib\gcc\mingw32\4.8.1\include\c++\istream:39:0,
+                 from c:\mingw\lib\gcc\mingw32\4.8.1\include\c++\sstream:38,
+                 from ..\wedding.cpp:4:
+c:\mingw\lib\gcc\mingw32\4.8.1\include\c++\ostream:586:5: note: template<class _CharT, class _Traits> std::basic_ostream<_CharT, _Traits>& std::flush(std::basic_ostream<_CharT, _Traits>&)
+     flush(basic_ostream<_CharT, _Traits>& __os)
+     ^
+c:\mingw\lib\gcc\mingw32\4.8.1\include\c++\ostream:586:5: note:   template argument deduction/substitution failed:
+..\wedding.cpp:33:14: note:   mismatched types 'std::basic_ostream<_CharT, _Traits>' and 'FILE* {aka _iobuf*}'
+  flush(stdout);
+              ^
+Info: Nothing to build for CaseStudy1
+Info: Nothing to build for CaseStudy2
+16:38:38 **** Incremental Build of configuration Debug for project Problem_UVA_Wedding_shopping ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o wedding.o "..\\wedding.cpp" 
+..\wedding.cpp:38:18: error: invalid suffix "M" on integer constant
+   scanf("%d %d", 8M, 8C);
+                  ^
+..\wedding.cpp:38:22: error: invalid suffix "C" on integer constant
+   scanf("%d %d", 8M, 8C);
+                      ^
+Info: Nothing to build for CaseStudy1
+Info: Nothing to build for CaseStudy2
+16:38:56 **** Incremental Build of configuration Debug for project Problem_UVA_Wedding_shopping ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o wedding.o "..\\wedding.cpp" 
+..\wedding.cpp:37:18: error: invalid suffix "M" on integer constant
+   scanf("%d %d", 8M, 8C);
+                  ^
+..\wedding.cpp:37:22: error: invalid suffix "C" on integer constant
+   scanf("%d %d", 8M, 8C);
+                      ^
+Info: Nothing to build for CaseStudy1
+Info: Nothing to build for CaseStudy2
+16:39:28 **** Incremental Build of configuration Debug for project Problem_UVA_Wedding_shopping ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o wedding.o "..\\wedding.cpp" 
+g++ -o Problem_UVA_Wedding_shopping.exe wedding.o 
+Info: Nothing to build for Problem_UVA_Wedding_shopping
+Info: Nothing to build for CaseStudy1
+Info: Nothing to build for CaseStudy2
+Info: Nothing to build for Problem_UVA_Wedding_shopping
+Info: Nothing to build for Problem_UVA_Wedding_shopping

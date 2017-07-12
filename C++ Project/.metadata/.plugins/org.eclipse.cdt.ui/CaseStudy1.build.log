@@ -1,7 +1,1 @@
-15:58:52 **** Incremental Build of configuration Debug for project CaseStudy1 ****
-Info: Internal Builder is used for build
-g++ -O0 -g3 -Wall -c -fmessage-length=0 -o caseStudy1.o "..\\caseStudy1.cpp" 
-g++ -o CaseStudy1.exe caseStudy1.o 
-
-15:58:53 Build Finished (took 647ms)
-
+Info: Nothing to build for CaseStudy1
