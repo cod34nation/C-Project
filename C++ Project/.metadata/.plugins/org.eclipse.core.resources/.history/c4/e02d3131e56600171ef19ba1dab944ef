@@ -1,0 +1,13 @@
+#include <algorithm>
+#include <cstdio>
+#include <cstring>
+#include <sstream>
+#include <cstdlib>
+#include <iostream>
+
+using namespace std;
+int H,M;
+
+int hitung(int Hx,int Mx){
+
+}

@@ -181,3 +181,71 @@ Info: Nothing to build for CaseStudy1
 Info: Nothing to build for CaseStudy2
 Info: Nothing to build for Problem_UVA_Wedding_shopping
 Info: Nothing to build for Problem_UVA_Wedding_shopping
+Info: Nothing to build for CaseStudy1
+Info: Nothing to build for CaseStudy2
+Info: Nothing to build for Problem_UVA_Wedding_shopping
+17:20:04 **** Rebuild of configuration Debug for project Sahur-imsa' ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o sahur.o "..\\sahur.cpp" 
+g++ -o Sahur-imsa'.exe sahur.o 
+c:/mingw/bin/../lib/gcc/mingw32/4.8.1/../../../libmingw32.a(main.o):main.c:(.text.startup+0xa7): undefined reference to `WinMain@16'
+collect2.exe: error: ld returned 1 exit status
+Info: Nothing to build for CaseStudy2
+Info: Nothing to build for CaseStudy1
+Info: Nothing to build for CaseStudy2
+Info: Nothing to build for Problem_UVA_Wedding_shopping
+17:20:35 **** Incremental Build of configuration Debug for project Sahur-imsa' ****
+Info: Internal Builder is used for build
+g++ -o Sahur-imsa'.exe sahur.o 
+c:/mingw/bin/../lib/gcc/mingw32/4.8.1/../../../libmingw32.a(main.o):main.c:(.text.startup+0xa7): undefined reference to `WinMain@16'
+collect2.exe: error: ld returned 1 exit status
+Info: Nothing to build for CaseStudy1
+Info: Nothing to build for CaseStudy1
+Info: Nothing to build for CaseStudy2
+Info: Nothing to build for Problem_UVA_Wedding_shopping
+17:33:39 **** Incremental Build of configuration Debug for project Sahur-imsa' ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o sahur.o "..\\sahur.cpp" 
+..\sahur.cpp: In function 'int hitung(int, int)':
+..\sahur.cpp:13:1: warning: no return statement in function returning non-void [-Wreturn-type]
+ }
+ ^
+g++ -o Sahur-imsa'.exe sahur.o 
+c:/mingw/bin/../lib/gcc/mingw32/4.8.1/../../../libmingw32.a(main.o):main.c:(.text.startup+0xa7): undefined reference to `WinMain@16'
+collect2.exe: error: ld returned 1 exit status
+Info: Nothing to build for CaseStudy1
+Info: Nothing to build for CaseStudy2
+Info: Nothing to build for Problem_UVA_Wedding_shopping
+17:38:16 **** Incremental Build of configuration Debug for project Sahur-imsa' ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o sahur.o "..\\sahur.cpp" 
+..\sahur.cpp: In function 'int hitung(int, int)':
+..\sahur.cpp:15:19: error: invalid conversion from 'int' to 'const char*' [-fpermissive]
+   printf(Hx,":",Mx);
+                   ^
+In file included from c:\mingw\lib\gcc\mingw32\4.8.1\include\c++\cstdio:42:0,
+                 from ..\sahur.cpp:2:
+c:\mingw\include\stdio.h:294:37: error:   initializing argument 1 of 'int printf(const char*, ...)' [-fpermissive]
+ _CRTIMP int __cdecl __MINGW_NOTHROW printf (const char*, ...);
+                                     ^
+..\sahur.cpp:22:1: warning: no return statement in function returning non-void [-Wreturn-type]
+ }
+ ^
+Info: Nothing to build for CaseStudy1
+Info: Nothing to build for CaseStudy2
+Info: Nothing to build for Problem_UVA_Wedding_shopping
+17:39:56 **** Incremental Build of configuration Debug for project Sahur-imsa' ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o sahur.o "..\\sahur.cpp" 
+..\sahur.cpp: In function 'int hitung(int, int)':
+..\sahur.cpp:15:12: error: invalid conversion from 'int' to 'const char*' [-fpermissive]
+   printf(Hx);
+            ^
+In file included from c:\mingw\lib\gcc\mingw32\4.8.1\include\c++\cstdio:42:0,
+                 from ..\sahur.cpp:2:
+c:\mingw\include\stdio.h:294:37: error:   initializing argument 1 of 'int printf(const char*, ...)' [-fpermissive]
+ _CRTIMP int __cdecl __MINGW_NOTHROW printf (const char*, ...);
+                                     ^
+..\sahur.cpp:22:1: warning: no return statement in function returning non-void [-Wreturn-type]
+ }
+ ^

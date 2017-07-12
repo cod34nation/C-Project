@@ -1,0 +1,48 @@
+//#include <algorithm>
+//#include <cstdio>
+//#include <cstring>
+//#include <sstream>
+//#include <cstdlib>
+//#include <iostream>
+//
+//using namespace std;
+//int H,M;
+//
+//int hitung(int Hx,int Mx){
+//
+//	if(Hx <=24 &&  Mx <=59 )
+//
+//
+//
+//
+//
+//
+//}
+#include <stdio.h>
+#include <time.h>
+#include <stdlib.h>
+#include <unistd.h>
+
+timespec diff(timespec start, timespec end)
+{
+    timespec temp;
+    if ((end.tv_nsec - start.tv_nsec) < 0) {
+        temp.tv_sec = end.tv_sec - start.tv_sec - 1;
+        temp.tv_nsec = 1000000000 + end.tv_nsec - start.tv_nsec;
+    } else {
+        temp.tv_sec = end.tv_sec - start.tv_sec;
+        temp.tv_nsec = end.tv_nsec - start.tv_nsec;
+    }
+    return temp;
+}
+
+int main(){
+
+    timespec start, stop;
+    clock_gettime(CLOCK_REALTIME, &start);
+    sleep(1);
+    clock_gettime(CLOCK_REALTIME, &stop);
+
+    timespec duration = diff(start, stop);
+    printf("%d.%09d s\n", duration.tv_sec, duration.tv_nsec);
+    return 0;
