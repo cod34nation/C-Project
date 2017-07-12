@@ -1,11 +1,7 @@
-15:29:59 **** Incremental Build of configuration Debug for project CaseStudy1 ****
+15:58:52 **** Incremental Build of configuration Debug for project CaseStudy1 ****
 Info: Internal Builder is used for build
-g++ -O0 -g3 -Wall -c -fmessage-length=0 -o no2.o "..\\no2.cpp" 
-g++ -o CaseStudy1.exe no2.o caseStudy1.o 
-caseStudy1.o: In function `main':
-C:\My Files\AFRIZAL\CaseStudy1\Debug/../caseStudy1.cpp:4: multiple definition of `main'
-no2.o:C:\My Files\C++ Project\CaseStudy1\Debug/../no2.cpp:4: first defined here
-collect2.exe: error: ld returned 1 exit status
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o caseStudy1.o "..\\caseStudy1.cpp" 
+g++ -o CaseStudy1.exe caseStudy1.o 
 
-15:29:59 Build Finished (took 451ms)
+15:58:53 Build Finished (took 647ms)
 

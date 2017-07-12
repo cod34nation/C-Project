@@ -48,3 +48,20 @@ g++ -O0 -g3 -Wall -c -fmessage-length=0 -o caseStudy2.o "..\\caseStudy2.cpp"
 g++ -o CaseStudy2.exe caseStudy2.o 
 Info: Nothing to build for CaseStudy2
 Info: Nothing to build for CaseStudy2
+15:58:25 **** Incremental Build of configuration Debug for project CaseStudy1 ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o caseStudy1.o "..\\caseStudy1.cpp" 
+g++ -o CaseStudy1.exe caseStudy1.o no2.o 
+no2.o: In function `main':
+C:\My Files\C++ Project\CaseStudy1\Debug/../no2.cpp:4: multiple definition of `main'
+caseStudy1.o:C:\My Files\C-Project\C++ Project\CaseStudy1\Debug/../caseStudy1.cpp:4: first defined here
+collect2.exe: error: ld returned 1 exit status
+Info: Nothing to build for CaseStudy2
+15:58:36 **** Incremental Build of configuration Debug for project CaseStudy1 ****
+Info: Internal Builder is used for build
+g++ -o CaseStudy1.exe caseStudy1.o 
+Info: Nothing to build for CaseStudy2
+15:58:52 **** Incremental Build of configuration Debug for project CaseStudy1 ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o caseStudy1.o "..\\caseStudy1.cpp" 
+g++ -o CaseStudy1.exe caseStudy1.o 
