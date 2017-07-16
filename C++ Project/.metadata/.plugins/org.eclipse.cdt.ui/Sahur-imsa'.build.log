@@ -1,18 +1,8 @@
-17:39:56 **** Incremental Build of configuration Debug for project Sahur-imsa' ****
+08:37:48 **** Rebuild of configuration Debug for project Sahur-imsa' ****
+Info: Configuration "Debug" uses tool-chain "MinGW GCC" that is unsupported on this system, attempting to build anyway.
 Info: Internal Builder is used for build
-g++ -O0 -g3 -Wall -c -fmessage-length=0 -o sahur.o "..\\sahur.cpp" 
-..\sahur.cpp: In function 'int hitung(int, int)':
-..\sahur.cpp:15:12: error: invalid conversion from 'int' to 'const char*' [-fpermissive]
-   printf(Hx);
-            ^
-In file included from c:\mingw\lib\gcc\mingw32\4.8.1\include\c++\cstdio:42:0,
-                 from ..\sahur.cpp:2:
-c:\mingw\include\stdio.h:294:37: error:   initializing argument 1 of 'int printf(const char*, ...)' [-fpermissive]
- _CRTIMP int __cdecl __MINGW_NOTHROW printf (const char*, ...);
-                                     ^
-..\sahur.cpp:22:1: warning: no return statement in function returning non-void [-Wreturn-type]
- }
- ^
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o app_sahur.o "..\\app_sahur.cpp" 
+g++ -o Sahur-imsa'.exe app_sahur.o 
 
-17:39:56 Build Finished (took 219ms)
+08:37:50 Build Finished (took 1s.611ms)
 
