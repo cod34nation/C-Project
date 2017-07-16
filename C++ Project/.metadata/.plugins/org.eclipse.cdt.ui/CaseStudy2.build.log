@@ -1,8 +1,1 @@
-08:37:42 **** Incremental Build of configuration Debug for project CaseStudy2 ****
-Info: Configuration "Debug" uses tool-chain "MinGW GCC" that is unsupported on this system, attempting to build anyway.
-Info: Internal Builder is used for build
-g++ -O0 -g3 -Wall -c -fmessage-length=0 -o caseStudy2.o "..\\caseStudy2.cpp" 
-g++ -o CaseStudy2.exe caseStudy2.o 
-
-08:37:44 Build Finished (took 1s.901ms)
-
+Info: Nothing to build for CaseStudy2

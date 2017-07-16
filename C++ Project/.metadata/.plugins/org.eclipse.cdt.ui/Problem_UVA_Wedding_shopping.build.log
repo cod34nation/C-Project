@@ -1,15 +1,1 @@
-08:37:46 **** Rebuild of configuration Debug for project Problem_UVA_Wedding_shopping ****
-Info: Configuration "Debug" uses tool-chain "MinGW GCC" that is unsupported on this system, attempting to build anyway.
-Info: Internal Builder is used for build
-g++ -O0 -g3 -Wall -c -fmessage-length=0 -o wedding.o "..\\wedding.cpp" 
-..\wedding.cpp: In function 'int shop(int, int)':
-..\wedding.cpp:20:1: warning: this 'for' clause does not guard... [-Wmisleading-indentation]
- for ( int model =1;model <=price[g][0]; model++)
- ^~~
-..\wedding.cpp:23:2: note: ...this statement, but the latter is misleadingly indented as if it were guarded by the 'for'
-  return ans;
-  ^~~~~~
-g++ -o Problem_UVA_Wedding_shopping.exe wedding.o 
-
-08:37:48 Build Finished (took 2s.207ms)
-
+Info: Nothing to build for Problem_UVA_Wedding_shopping

@@ -1,7 +1,24 @@
-08:38:26 **** Incremental Build of configuration Debug for project Horror Dash ****
+08:48:47 **** Clean-only build of configuration Debug for project Horror Dash ****
+make clean 
+rm -rf  ./app_horro.o  ./app_horro.d  "Horror Dash"
+process_begin: CreateProcess(NULL, rm -rf ./app_horro.o ./app_horro.d "Horror Dash", ...) failed.
+make (e=2): The system cannot find the file specified.
+
+make: [makefile:52: clean] Error 2 (ignored)
+' '
+Info: Nothing to build for CaseStudy1
+Info: Nothing to build for CaseStudy2
+08:49:15 **** Build of configuration Debug for project Horror Dash ****
 make all 
 'Building target: Horror Dash'
 'Invoking: Cross G++ Linker'
 g++  -o "Horror Dash"  ./app_horro.o   
 'Finished building target: Horror Dash'
 ' '
+Info: Nothing to build for Problem_UVA_Wedding_shopping
+08:49:15 **** Incremental Build of configuration Debug for project Sahur-imsa' ****
+Info: Configuration "Debug" uses tool-chain "MinGW GCC" that is unsupported on this system, attempting to build anyway.
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o app_sahur.o "..\\app_sahur.cpp" 
+g++ -o Sahur-imsa'.exe app_sahur.o 
+Info: Nothing to build for Sahur-imsa'
