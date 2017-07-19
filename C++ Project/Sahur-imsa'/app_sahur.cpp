@@ -3,23 +3,22 @@
 using namespace std;
 
 int main(){
-    int T,N,ans;
+    int T,N,v;
 
     scanf("%d",&T);
 
     for(int tc = 1;tc <= T;++tc){
         scanf("%d",&N);
-        ans = 0;
+        v = 0;
 
         for(int i = 0,x;i < N;++i){
             scanf("%d",&x);
-            ans = max(ans,x);
+            v = max(v,x);
         }
 
-        printf("Case %d: %d\n",tc,ans);
+        printf("Case %d: %d\n",tc,v);
     }
 
-    return 0;
 }
 
 //#include <iostream>
