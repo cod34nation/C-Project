@@ -1,55 +1,29 @@
-#include <cstdio>
-#include <algorithm>
+#include<algorithm>
+
+
 using namespace std;
+int counter =0;
 
-int main(){
-    int T,N,v;
+int fibo(int n){
+  int ans;
+  printf("fibo(%d) and this function recur: %d \n",n,counter++);
 
-    scanf("%d",&T);
+   if (n==0)
+     return 0;
 
-    for(int tc = 1;tc <= T;++tc){
-        scanf("%d",&N);
-        v = 0;
 
-        for(int i = 0,x;i < N;++i){
-            scanf("%d",&x);
-            v = max(v,x);
-        }
+   if (n==1)
+     return 1;
 
-        printf("Case %d: %d\n",tc,v);
-    }
+
+   return (fibo(n-2)+fibo(n-1));
 
 }
+int main () {
 
-//#include <iostream>
-//using namespace std;
-//    int main() {
-//    	// printf("Berapa kota yang anda kunjungi ?");
-//	      int h,m,x,a,b; // variabel h = untuk jam, m = menit, x = jumlah kota a = var temp untuk jam, b var temp utk = menit
-//		 	   int i = 1;
-//		 	   cin>>x; // untuk masukkan jumlah perulangan
-//		 	 // printf("Masukkan waktu sahur :"); // mencetak
-//
-//		 	   while(x--){
-//		 		   cin>>h>>m;
-//		 		   b=m-45;
-//		 		   if(b<0){
-//		 			   a=h-1;
-//		 			   if(a<0){
-//
-//		 				   cout<<"Case #  "<<i++<<":"<<24-1<<" "<<60+b<<endl;
-//
-//		 			   }else{
-//		 				   cout<<"Case # "<<i++<<":"<<a<<" "<<60+b<<endl;
-//		 			   }
-//
-//		 		   }else{
-//		 			       cout<<"Case # "<<i++<<":"<<h<<" "<<b<<endl;
-//		 		   }
-////		 		   if(i == x){
-////		 			   break;
-////		 		   }
-//		 	   }
-//
-//
-//    	}
+  int number ,n=5;
+  number = fibo(n);
+  printf("Soulution of the Problem %d",number );
+  return 0;
+
+}

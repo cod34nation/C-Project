@@ -1,0 +1,8 @@
+D:\DATA KULIAH\KULIAH REGULER\STUDENT EX\LMCR2303\C-Project\Training Exam\stack_queue.cpp: In function 'int main()':
+D:\DATA KULIAH\KULIAH REGULER\STUDENT EX\LMCR2303\C-Project\Training Exam\stack_queue.cpp:18:3: error: 'printStack' was not declared in this scope
+   printStack();
+   ^~~~~~~~~~
+D:\DATA KULIAH\KULIAH REGULER\STUDENT EX\LMCR2303\C-Project\Training Exam\stack_queue.cpp:18:3: note: suggested alternative: 'printf'
+   printStack();
+   ^~~~~~~~~~
+   printf

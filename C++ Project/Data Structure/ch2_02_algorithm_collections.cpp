@@ -63,7 +63,7 @@ int main() {
   printf("==================\n");
 
   // multi-field sorting example, suppose we have 4 ICPC teams
-  team nus[4] = { {1, 1, 10}, 
+  team nus[4] = { {1, 1, 10},
                   {2, 3, 60},
                   {3, 1, 20},
                   {4, 3, 60} };
@@ -112,12 +112,12 @@ int main() {
   printf("%d\n", *j);
 
   pos = lower_bound(arr, arr + 5, 77);                         // not found
-  if (pos - arr == 5) // arr is of size 5 -> 
+  if (pos - arr == 5) // arr is of size 5 ->
                       //    arr[0], arr[1], arr[2], arr[3], arr[4]
                       // if lower_bound cannot find the required value,
                       //   it will set return arr index +1 of arr size, i.e.
                       //   the 'non existent' arr[5]
-                      // thus, testing whether pos - arr == 5 blocks 
+                      // thus, testing whether pos - arr == 5 blocks
                       //   can detect this "not found" issue
     printf("77 not found\n");
   j = lower_bound(v.begin(), v.end(), 77);

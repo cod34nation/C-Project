@@ -18,3 +18,79 @@ g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"app.d" -MT"app.o" -o "app.o
 g++  -o "scoreboard"  ./app.o   
 'Finished building target: scoreboard'
 ' '
+Info: Nothing to build for CaseStudy1
+Info: Nothing to build for CaseStudy2
+18:59:57 **** Incremental Build of configuration Debug for project Horror Dash ****
+make all 
+'Building target: Horror Dash'
+'Invoking: Cross G++ Linker'
+g++  -o "Horror Dash"  ./app_horro.o   
+'Finished building target: Horror Dash'
+' '
+Info: Nothing to build for Problem_UVA_Wedding_shopping
+19:00:01 **** Incremental Build of configuration Debug for project Sahur-imsa' ****
+Info: Configuration "Debug" uses tool-chain "MinGW GCC" that is unsupported on this system, attempting to build anyway.
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o app_sahur.o "..\\app_sahur.cpp" 
+..\app_sahur.cpp: In function 'int fibo(int)':
+..\app_sahur.cpp:9:3: error: 'printf' was not declared in this scope
+   printf("fibo(%d) and this function recur: %d \n",n,counter++);
+   ^~~~~~
+..\app_sahur.cpp:9:3: note: suggested alternative: '__int8'
+   printf("fibo(%d) and this function recur: %d \n",n,counter++);
+   ^~~~~~
+   __int8
+..\app_sahur.cpp:8:7: warning: unused variable 'ans' [-Wunused-variable]
+   int ans;
+       ^~~
+..\app_sahur.cpp: In function 'int main()':
+..\app_sahur.cpp:26:3: error: 'printf' was not declared in this scope
+   printf("Soulution of the Problem %d",number );
+   ^~~~~~
+..\app_sahur.cpp:26:3: note: suggested alternative: '__int8'
+   printf("Soulution of the Problem %d",number );
+   ^~~~~~
+   __int8
+19:00:03 **** Incremental Build of configuration Debug for project scoreboard ****
+make all 
+'Building file: ../app.cpp'
+'Invoking: Cross G++ Compiler'
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"app.d" -MT"app.o" -o "app.o" "../app.cpp"
+../app.cpp:7:10: warning: missing terminating " character
+   printf("fibo(%d) and this function
+          ^
+../app.cpp:7:10: error: missing terminating " character
+   printf("fibo(%d) and this function
+          ^~~~~~~~~~~~~~~~~~~~~~~~~~~
+../app.cpp:8:13: error: stray '\' in program
+   recur: %d \n", n,counter++);
+             ^
+../app.cpp:8:15: warning: missing terminating " character
+   recur: %d \n", n,counter++);
+               ^
+../app.cpp:8:15: error: missing terminating " character
+   recur: %d \n", n,counter++);
+               ^~~~~~~~~~~~~~~~
+../app.cpp:4:14: error: expected '{' before ';' token
+ namespace std;
+              ^
+../app.cpp: In function 'int std::fibo(int)':
+../app.cpp:8:3: error: 'recur' was not declared in this scope
+   recur: %d \n", n,counter++);
+   ^~~~~
+../app.cpp:19:1: warning: no return statement in function returning non-void [-Wreturn-type]
+ }
+ ^
+../app.cpp: In function 'int std::main()':
+../app.cpp:24:1: error: 'printf' was not declared in this scope
+ printf("Soulution of the Problem %d",number );
+ ^~~~~~
+../app.cpp:24:1: note: suggested alternative: '__int8'
+ printf("Soulution of the Problem %d",number );
+ ^~~~~~
+ __int8
+../app.cpp: At global scope:
+../app.cpp:27:1: error: expected '}' at end of input
+ }
+ ^
+make: *** [subdir.mk:20: app.o] Error 1
