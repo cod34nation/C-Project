@@ -27,7 +27,7 @@ int main() {
   pq.push(make_pair(70, "felix"));
   pq.push(make_pair(2000, "grace"));
   pq.push(make_pair(70, "martin"));
-  
+
   // priority queue will arrange items in 'heap' based
   // on the first key in pair, which is money (integer), largest first
   // if first keys tie, use second key, which is name, largest first
